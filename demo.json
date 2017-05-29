@@ -1,0 +1,53 @@
+{
+    "thumbnailsNumber" : 6,
+    "thumbnailsList" : [
+        {
+            "auctionUrl" : "/",
+            "celebrityPicture" : "http://vdc-img-1.ig1-cdn.com/img/test_integration/celebrity-7.jpg",
+            "celebrityName" : "Anita Tillmann",
+            "celebrityActivity" : "Blogueuse mode",
+            "productPicture" : "http://vdc-img-1.ig1-cdn.com/img/test_integration/product-7.jpg",
+            "productName" : "Un collier Isabel Marant"
+        },
+        {
+            "auctionUrl" : "/",
+            "celebrityPicture" : "http://vdc-img-1.ig1-cdn.com/img/test_integration/celebrity-8.jpg",
+            "celebrityName" : "Aurélie Bidermann",
+            "celebrityActivity" : "Créatrice de bijoux",
+            "productPicture" : "http://vdc-img-1.ig1-cdn.com/img/test_integration/product-8.jpg",
+            "productName" : "Un sac Louis Vuitton"
+        },
+        {
+            "auctionUrl" : "/",
+            "celebrityPicture" : "http://vdc-img-1.ig1-cdn.com/img/test_integration/celebrity-9.jpg",
+            "celebrityName" : "Sarah Lavoine",
+            "celebrityActivity" : "Architecte d'intérieur",
+            "productPicture" : "http://vdc-img-1.ig1-cdn.com/img/test_integration/product-9.jpg",
+            "productName" : "Une robe Chloé"
+        },
+        {
+            "auctionUrl" : "/",
+            "celebrityPicture" : "http://vdc-img-1.ig1-cdn.com/img/test_integration/celebrity-10.jpg",
+            "celebrityName" : "Maxime Simoëns",
+            "celebrityActivity" : "Styliste",
+            "productPicture" : "http://vdc-img-1.ig1-cdn.com/img/test_integration/product-10.jpg",
+            "productName" : "Un sac Chanel"
+        },
+        {
+            "auctionUrl" : "/",
+            "celebrityPicture" : "http://vdc-img-1.ig1-cdn.com/img/test_integration/celebrity-11.jpg",
+            "celebrityName" : "Cara Delevingne",
+            "celebrityActivity" : "Actrice et mannequin",
+            "productPicture" : "http://vdc-img-1.ig1-cdn.com/img/test_integration/product-11.jpg",
+            "productName" : "Un chemisier Maje"
+        },
+        {
+            "auctionUrl" : "/",
+            "celebrityPicture" : "http://vdc-img-1.ig1-cdn.com/img/test_integration/celebrity-12.jpg",
+            "celebrityName" : "Irma",
+            "celebrityActivity" : "Chanteuse",
+            "productPicture" : "http://vdc-img-1.ig1-cdn.com/img/test_integration/product-12.jpg",
+            "productName" : "Des chaussures Prada"
+        }
+    ]
+}

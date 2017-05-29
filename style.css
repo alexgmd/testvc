@@ -1,0 +1,134 @@
+html{
+    height:100%;
+}
+body {
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+body, button{
+    margin: 0;
+    font-size: 11px;
+    font-family: arial;
+}
+.global{
+    width:100%;
+    overflow:auto;
+    padding-bottom: 25px;
+}
+
+/* sets sides margins of the page*/
+#countdown, #logo-accueil, #auctions-preview, #footer p, #footer .contenu-footer{
+    margin:10px 10% 10px 10%; 
+}
+
+/*MAIN LOGO*/
+#logo-accueil img{
+    margin:50px auto 15px auto;
+    display:block;
+}
+
+/* DIV COUNTDOWN */
+#countdown span{
+    text-align: center;
+    margin:0 auto 0 auto;
+    display:block;
+    padding-top: 10px;
+    border-top:1px solid;
+}
+
+/* DIV BANNER */
+#banner{
+    background-color: #eeeeee;
+    background-size: 100%; /*full width*/
+    color:black;
+    text-align: center;
+    font-family: Georgia;
+    border-top:1px solid #c9c9c9;
+    border-bottom:1px solid #c9c9c9;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+#banner h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+#banner p{
+    font-size:14px;
+    line-height:25px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+/* AUCTIONS PREVIEW */
+#auctions-preview p.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size:30px;
+    margin-bottom: 1px;
+}
+#auctions-preview button{
+    display: block;
+    margin : auto;
+    text-transform: uppercase;
+    padding:5px;
+    color: #fff;
+    background-color: #414141;
+    border: none;
+}
+#auctions-preview button:hover{
+  background-color: black;
+}
+hr{ /*line between title and principal auction*/
+    text-align:center;
+    width: 60px;
+    height: 5px;
+    margin-bottom: 10px;
+    border:0;
+    background-color: black;
+}
+.principal img{
+    margin:0 auto 0 auto;
+    display:block;
+    height: 100%;
+    width: 100%;
+}
+
+/* FOOTER */
+#footer{
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: #1a1a1a; 
+    position: relative;
+    padding:30px 30px;
+}
+#footer p{
+    font-family: georgia;
+    color: #a0a0a0;
+    padding: 10px 10px;
+    width: 40%;
+    margin: auto;
+}
+#footer p.txt-footer{
+    text-transform: uppercase;
+    font-size:13px;
+    border-bottom: 1px solid;
+}
+#footer p.nb-footer{
+    font-size: 26px;
+}
+.contenu-footer{
+    display: block;
+    margin:auto;
+    padding-bottom: 30px;
+}
+.contenu-footer img{
+    margin:0 auto 0 auto;
+    display:block;
+    height: 100%;
+    width: 100%;
+    padding-top:1.5%;
+    padding-bottom: 0.5%;
+}

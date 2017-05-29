@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vestiaire Collective #StyleCycle</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/toolbar.css">
+        <link rel="stylesheet" href="css/cards.css">
+    </head>
+
+    <body>
+        <div id="tool-bar">
+            <ul>
+                <li style="text-align:left">
+                    <div id="langue"></div>
+                    <ul>
+                        <li class="fr"><a href="#">français</a></li>
+                        <li class="en"><a href="#">english</a></li>
+                        <li class="it"><a href="#">italiano</a></li>
+                        <li class="de"><a href="#">deutsch</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button onclick="window.location='#';">Voir le détail des enchères en cours</button>
+                </li>
+                <li style="text-align:right">
+                    Bienvenue [email]
+                </li>
+            </ul>
+        </div>
+
+        <div class="global">
+            <div id="logo-accueil">
+                <img alt="logo VC #StyleCycle"src="images/logo_vc.png"/>
+            </div>
+
+            <div id="countdown">
+                <span>Fin des enchères Style Cycle dans 
+                    <strong id="countdown-day"></strong> jours, 
+                    <strong id="countdown-hour"></strong> heures
+                    <strong id="countdown-min"></strong> minutes et
+                    <strong id="countdown-sec"></strong> secondes.
+                </span>
+            </div>
+
+            <div id="banner">
+                <h1>Vestiaire Collective est fier de célèbrer son 5ème anniversaire avec StyleCycle.</h1>
+                <p class="subtext">Participez à notre vente caritative exceptionnelle aux côtés de personnalités de la mode et enchérissez pour la bonne cause !</p>
+            </div>
+
+            <div id="auctions-preview">
+                <p class="title">Les <strong>enchères</strong></p>
+                <hr/>
+                <a href="#">
+                    <div class="principal">
+                        <img src="images/principal-auction.png"/>
+                        <div class="icone"></div>
+                    </div>
+                </a>
+                <div id="thumbnails">
+                    <div class="card">
+                        <a href="#">
+                            <div class="images">
+                                <img src="images/image-celeb-1.png"/>
+                                <img src="images/image-produit-1.png"/>
+                                <div class="icone"></div>
+                            </div>
+                        </a>
+                        <div class="info">
+                            <span class="celeb-name">Mylène Jampanoï</span>
+                            <p class="celeb-job">Actrice</p>
+                            <p class="product-name">Un manteau <font style="text-transform: uppercase;">Céline</font></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <div class="images">
+                                <img src="images/image-celeb-2.png"/>
+                                <img src="images/image-produit-2.png"/>
+                                <div class="icone"></div>
+                            </div>
+                        </a>
+                        <div class="info">
+                            <span class="celeb-name">Nora Arnezeder</span>
+                            <p class="celeb-job">Actrice et chanteuse</p>
+                            <p class="product-name">Un sac Victoria <font style="text-transform: uppercase;">Hermès</font></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <div class="images">
+                                <img src="images/image-celeb-3.png"/>
+                                <img src="images/image-produit-3.png"/>
+                                <div class="icone"></div>
+                            </div>
+                        </a>
+                        <div class="info">
+                            <span class="celeb-name">Leïla Bekthi</span>
+                            <p class="celeb-job">Actrice</p>
+                            <p class="product-name">Un sac vintage <font style="text-transform: uppercase;">YVES SAINT LAURENT</font></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <div class="images">
+                                <img src="images/image-celeb-1.png"/>
+                                <img src="images/image-produit-1.png"/>
+                                <div class="icone"></div>
+                            </div>
+                        </a>
+                        <div class="info">
+                            <span class="celeb-name">Mylène Jampanoï</span>
+                            <p class="celeb-job">Actrice</p>
+                            <p class="product-name">Un manteau <font style="text-transform: uppercase;">Céline</font></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <div class="images">
+                                <img src="images/image-celeb-2.png"/>
+                                <img src="images/image-produit-2.png"/>
+                                <div class="icone"></div>
+                            </div>
+                        </a>
+                        <div class="info">
+                            <span class="celeb-name">Nora Arnezeder</span>
+                            <p class="celeb-job">Actrice et chanteuse</p>
+                            <p class="product-name">Un sac Victoria <font style="text-transform: uppercase;">Hermès</font></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <div class="images">
+                                <img src="images/image-celeb-3.png"/>
+                                <img src="images/image-produit-3.png"/>
+                                <div class="icone"></div>
+                            </div>
+                        </a>
+                        <div class="info">
+                            <span class="celeb-name">Leïla Bekthi</span>
+                            <p class="celeb-job">Actrice</p>
+                            <p class="product-name">Un sac vintage <font style="text-transform: uppercase;">YVES SAINT LAURENT</font></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="more-auctions"><button id="plus" onclick="moreAuctions()">Afficher toutes les enchères</button></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="contenu-footer">
+                <p class="txt-footer">Montant des dons récoltés par vestiaire collective</p>
+                <p class="nb-footer">$56,180 &bull; 43 617€ &bull; £34,263</p>
+                <img src="images/pointilles.png"/>
+                <img src="images/logo-vc-small.png" style="max-width: 94px;max-height: 22px;position: relative;color: #a0a0a0;float: left;"/>
+                <a href="#" style="position: relative;color: #a0a0a0;float: right;text-decoration: none;padding-top:1.5%;">Voir les mentions légales</a>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/countdown.js"></script>
+        <script type="text/javascript" src="js/auction-card.js"></script>
+        <script type="text/javascript" src="js/hover-effect.js"></script>
+        <script type="text/javascript" src="js/language-option.js"></script>
+    </body>
+</html>

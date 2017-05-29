@@ -1,0 +1,77 @@
+/* element next to the language option */
+.arrow {
+    width: 10px;
+    height: 10px;
+    stroke: white;
+}
+
+#tool-bar {
+    position: fixed;
+    top: 0; /*top of the page */
+    width: 100%; /* full width */
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background: #1a1a1a;
+    z-index: 9999;
+}
+
+#tool-bar ul {
+    list-style: none;
+    padding:5px 0 5px 0;
+    margin:0 10% 0 10%;
+}
+
+#tool-bar ul li {
+/* sets menu horizontaly */
+    display: inline-block;
+    width: 33%;
+}
+
+#tool-bar li ul li {
+    display: inherit;
+    padding: 5px;
+    width: auto;
+    border: 1px solid black;
+}
+
+#tool-bar a {
+    text-decoration: none;
+    display: block;
+	color:#000;
+    background-color: white;
+    
+}
+#tool-bar li ul {
+    position: absolute;
+    margin-left: 12px;
+    /*hide submenus */
+    display: none;
+    z-index: 1000;
+}
+#tool-bar ul li:hover ul{
+    /*show submenus */
+    display:block;
+    width:auto;
+    background-color:white;
+    text-decoration:none;
+    padding:0;
+}
+
+/*button style*/
+#tool-bar button{
+    font-size: 10px;
+    font-style: bold;
+    text-transform: uppercase;
+    padding:5px;
+    color: #fff;
+    background-color: #414141;
+    border: none;
+}
+#tool-bar button:hover{
+  background-color: black;
+}
+
+#tool-bar li, button{
+    cursor: pointer;
+}

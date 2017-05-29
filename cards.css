@@ -1,0 +1,47 @@
+/* CARDS DESIGN */
+#thumbnails{
+    display: block;
+    margin-top:20px;
+}
+.card{
+    text-align: center;
+    float: left;
+    width: 32%;
+    margin:5px 5px;
+}
+.card a{
+    text-decoration: none;
+}
+.card span.celeb-name{
+    font-family: georgia;
+    font-size: 20px;
+}
+.card p.celeb-job{
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.card .info{
+    padding-top:10px;
+    padding-bottom: 5px;
+    margin-top:2px;
+    background-color: #F2F3F4;
+}
+.card .images{
+    position:relative;
+    background: #F2F3F4;
+    padding:10px 0 10px 0;
+}
+.card .images img{
+    max-width: 145px;
+    max-height: 145px;
+    height: 100%;
+    width: 100%;
+}
+.product-name{
+    color:#be8b1f;
+    font-family:georgia;
+    font-size: 15px;
+}
